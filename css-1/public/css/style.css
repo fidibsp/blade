@@ -1,0 +1,66 @@
+*{
+	margin:0px; /*supaya gak ada space */
+}
+
+body{
+	background: url("../img/pattern.jpg") fixed;
+}
+
+header{
+	background: white;
+	height: 60px;
+	width: 100%;
+	position: fixed;
+}
+img{
+	display: inline;
+}
+nav{
+	display: inline;
+	font-size: 20px;
+	font-weight: bold;
+	word-spacing: 20px;
+	color: blue;
+	text-decoration: none;
+	margin: 15px 30px 0 0;
+	float: right; /* elemen ke ujung kanan */
+}
+
+section{
+	display: inline-block;
+	text-align: center;
+	width:50%; 
+	position: fixed; 
+	background-color: white; 
+	left: 50%; 
+    margin: 100px 0 60px 0; 
+    margin-left: -350px; 
+    padding: 20px 5px;
+    position:relative;
+    z-index: -1;
+}
+
+#article-list{
+	text-align: justify;
+	text-decoration: none;
+}
+
+.konten_article{
+	margin: 30px 10px;
+	border-bottom: 3px solid black;
+}
+
+footer{
+	color:white;
+	background:black;
+	text-align: center;
+	height: 40px;
+}
+
+h5{
+	padding:15px 0;
+}
+/* id dan class dipakai jika tag lebih dari satu 
+id cuma satu
+class banyak
+*/
